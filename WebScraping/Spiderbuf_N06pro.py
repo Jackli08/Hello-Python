@@ -1,0 +1,12 @@
+from DrissionPage import ChromiumPage
+page = ChromiumPage()
+page.get('https://www.spiderbuf.cn/playground/n06')
+page.set.window.max()
+page.ele('#username').clear().input('Jack')
+page.ele('#password').clear().input('123456')
+page.ele('#email').clear().input('2479251557@qq.com')
+page.ele('#website').clear().input('https://www.drissionpage.cn/')
+page.ele('#date').clear().input('2025/2/7')
+page.ele('#time').clear().input('12:35:10')
+page.ele('#search').clear().input('css语法我不会')
+page.ele('#textarea').clear().input('css语法我要学')
